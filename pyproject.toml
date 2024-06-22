@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "repo-to-prompt"
+version = "0.1.0"
+description = "Convert a Git Repo into a Prompt suitable for an LLM"
+authors = ["Vineeth Voruganti <13438633+VVoruganti@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+GitPython = "^3.1.43"
+tokencost = "^0.1.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
